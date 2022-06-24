@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    position: center;
+    height: center;
+    width:center;
+
+}
+
+#tabela {
+   border:solid;
+   align-items: center;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.osheaders{
+    border: 1px solid;
+}
+
+.ocontent{
+    text-align: center;
+    border:1px solid;
+}
+.produtos{
+    text-align:left;
+    border:1px solid;
+}
+
+#imagem{
+    width: 300px;
+    length: 300px;
+    left: 100%;
+    float: right;
+}
