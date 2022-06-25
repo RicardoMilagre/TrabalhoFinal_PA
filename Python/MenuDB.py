@@ -428,7 +428,7 @@ def MenuDataBase():  # MENU DA DATABASE
                     imprimir.place(anchor="center", relx=0.5, rely=0.5, width=900, height=225)
             except:
                 imprimir = Label(ChangeLogTEXT,
-                                 text="Logged in ao server srvsql-ipt.ddns.net\n\nSERVIÇOS CONECTADOS\n\nUNEXPECTED ERROR 12286. VERY UNEXPECTED...",
+                                 text="Logged in ao server srvsql-ipt.ddns.net\n\nSERVIÇOS CONECTADOS\n\numa tab",
                                  anchor="nw", font=("Calibri bold", 12), background="#ffffff", justify=LEFT)
                 imprimir.place(anchor="center", relx=0.5, rely=0.5, width=900, height=225)
 
@@ -568,7 +568,6 @@ def MenuDataBase():  # MENU DA DATABASE
     janela.iconbitmap("Outros/favicon.ico") # ICON COLOCADO NA JANELA DA BD.
     janela.geometry('1920x1080')
     janela.state('zoomed') #FULLSCREEN
-    frame = Frame(janela, width=1920, height=1080)
     menubar = Menu(janela, background='#ffffff')
     # FILE###########################################################################################################
     file = Menu(menubar, tearoff=0, foreground='black')
@@ -586,7 +585,6 @@ def MenuDataBase():  # MENU DA DATABASE
     ################################################################################################################
     ####                               LABELS E OBJECTOS CRIADOS NA JANELA                                      ####
     ################################################################################################################
-
 
     # INFO LABEL####################################################################################################
     info = Label(janela, text="Conectado À Base de Dados de Componentes de Computadores", foreground="#FFFFFF",
